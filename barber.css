@@ -12,8 +12,8 @@ body {
 }
 
 .bgi {
-    width: 100vw;
-    height: 945px;
+    /* width: 100vw; */
+    height: 950px;
     background-image: url(https://preview.colorlib.com/theme/haircare/images/bg-2.jpg);
     background-repeat: no-repeat;
 }
@@ -95,8 +95,10 @@ body {
 .image__left {
     background-image: url(https://preview.colorlib.com/theme/haircare/images/formen.jpg);
     background-size: cover;
-    width: 710px;
-    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 38%;
+    padding: 50px;
 }
 
 .main2 {
@@ -117,25 +119,25 @@ body {
 
 .border_left,
 .border_right {
-    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 85px;
     color: #bf925b;
     border: 4px solid #bf925b;
-    width: 600px;
-    height: 500px;
-    margin: 50px 50px;
+    height: 100%;
 }
 
 .text {
     background-color: #f5f2ea;
-    width: 500px;
-    height: 600px;
+    width: 24%;
     text-align: center;
-    padding-inline: 20px;
+    padding: 48px 24px;
+    /* padding-inline: 20px; */
 }
 
 .logo2 {
     width: 80px;
-    padding-top: 60px;
 }
 
 .care {
@@ -153,15 +155,17 @@ body {
 .image_right {
     background-image: url(https://preview.colorlib.com/theme/haircare/images/forwomen.jpg);
     background-size: cover;
-    width: 710px;
-    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 38%;
+    padding: 50px;
 }
 
 .text2 {
     padding-top: 40px;
     font-size: 18px;
     color: gray;
-    width: 460px;
+    width: 100%;
     line-height: 30px;
 }
 
@@ -181,7 +185,6 @@ body {
 }
 
 .main3 {
-    height: 680px;
     background-color: #f5f2ea;
     text-align: center;
 }
@@ -206,6 +209,7 @@ body {
 .head2 {
     display: flex;
     justify-content: center;
+    padding-bottom: 120px;
 }
 
 .head2 p {
@@ -222,7 +226,11 @@ body {
 
 .main4 {
     background-color: #ebe8de;
-    height: 1000px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 110px;
 }
 
 .head3 {
@@ -235,13 +243,15 @@ body {
 
 .head4 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-top: 30px;
+    justify-content: center;
+    width: 92%;
 }
 
 input {
-    width: 500px;
+    width: 26vw;
     height: 60px;
     margin: 15px;
     background: transparent;
@@ -258,16 +268,16 @@ textarea {
     border: 2px solid #bf925b;
     outline: none;
     border-radius: 5px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 53.8vw;
+    height: 26vh;
 }
 
 .div4 {
     margin-top: 15px;
-}
-
-.div4 ::placeholder {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 20px;
 }
 
 .head5 {
@@ -287,12 +297,15 @@ textarea {
 }
 
 .call {
-    position: relative;
-    bottom: 510px;
-    left: 330px;
-    transform: rotate(180deg);
-    writing-mode: vertical-lr;
+    transform: rotate(-90deg);
+    width: 23%;
     font-size: 20px;
+    margin-bottom: 160px;
+    padding-top: 190px;
+}
+
+.form-right {
+    width: 92%;
 }
 
 .main5 {
@@ -300,8 +313,10 @@ textarea {
 }
 
 .img1 {
-    width: 420px;
-    height: 380px;
+    width: 22vw;
+    height: 40vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .all_img {
@@ -310,17 +325,12 @@ textarea {
     margin-top: 50px;
 }
 
-.img1 {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
 .border1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 420px;
+    width: 22vw;
     height: 90px;
     color: white;
     background-color: #323435;
@@ -359,7 +369,7 @@ textarea {
 .img8 {
     display: inline-block;
     overflow: hidden;
-    height: 595px;
+    width: 25vw;
 }
 
 .img8:hover {
@@ -374,12 +384,12 @@ textarea {
 
 .main7 {
     background-color: #f5f2ea;
-    height: 880px;
 }
 
 .info {
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .info2 {
@@ -466,7 +476,6 @@ textarea {
     display: flex;
     justify-content: center;
     background-color: #ebe8de;
-    height: 540px;
 }
 
 .head6 {
@@ -495,8 +504,8 @@ textarea {
 }
 
 .img2 {
-    width: 470px;
-    height: 540px;
+    width: 25vw;
+    height: 57vh;
 }
 
 .img3 {
@@ -517,7 +526,6 @@ textarea {
 .main9 {
     background-color: #323435;
     font-weight: 600;
-    height: 720px;
 }
 
 .head9 p {
@@ -530,6 +538,7 @@ textarea {
     font-size: 18px;
     text-align: center;
     margin-top: 100px;
+    padding-bottom: 150px;
 }
 
 .head9 {
