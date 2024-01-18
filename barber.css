@@ -133,7 +133,6 @@ body {
     width: 24%;
     text-align: center;
     padding: 48px 24px;
-    /* padding-inline: 20px; */
 }
 
 .logo2 {
@@ -537,19 +536,20 @@ textarea {
     color: lightgray;
     font-size: 18px;
     text-align: center;
-    margin-top: 100px;
+    padding-top: 100px;
     padding-bottom: 150px;
+}
+
+.head11 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .head9 {
     display: flex;
-    margin-left: 270px;
+    flex-direction: column;
     color: white;
     padding-top: 130px;
-}
-
-.info4 {
-    margin-left: 100px;
 }
 
 .main9 .num_info {
@@ -590,9 +590,6 @@ textarea {
     margin-top: 20px;
 }
 
-.info6 {
-    margin-left: 200px;
-}
 
 .info6 h2 {
     margin-bottom: 50px;
@@ -612,7 +609,11 @@ textarea {
 
 @media (max-width: 768px) {
     .head1 {
-        flex-direction: column;
+        display: none;
+    }
+
+    .div3 h1 {
+        font-size: 30px;
     }
 
     .div1 {
@@ -643,7 +644,7 @@ textarea {
         flex-direction: column;
     }
 
-    .head9 {
+    .head11 {
         flex-direction: column;
     }
 }
